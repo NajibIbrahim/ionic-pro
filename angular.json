@@ -129,6 +129,9 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
@@ -136,7 +139,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "1170edcc-56a1-4218-a6f9-253609568473"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
